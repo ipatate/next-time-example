@@ -18,7 +18,7 @@ node index.js
 ### open another tab in your terminal and run :
 
 ```
-npm run build $$ npm run start
+npm run build && npm run start
 ```
 
 ## Time to revalidate page
