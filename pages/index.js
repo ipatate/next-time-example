@@ -33,7 +33,7 @@ export async function getStaticProps({ params }) {
 
   const { date } = response?.data;
   return {
-    revalidate: 20,
+    revalidate: process.env.revalidate,
     props: {
       date,
     },
